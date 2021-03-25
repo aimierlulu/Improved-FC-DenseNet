@@ -2,10 +2,7 @@
 A new fully automatic coronary artery segmentation method based on an improved FC-DenseNet is presented. The proposed method is efficiently trained end-to-end, using CCTA images and ground truth masks to make a per-pixel semantic inference. 
 
 
-Model:
 
-
-The provided model is basically a FC-DenseNet,we present an improved FC-DenseNet for fully automatic coronary artery segmentation. In the downsampling path, we have added a convolutional layer with kernel size of 5  5 to realize a more accurate location. Additionally, direct down skip connections have been added to assure maximum information flow between layers. In the upsampling path, we have improved the TU blocks, aiming at extracting richer semantic features.  .
 
 
 
